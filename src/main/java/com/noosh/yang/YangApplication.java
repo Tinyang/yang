@@ -8,6 +8,6 @@ public class YangApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(YangApplication.class, args);
-		System.out.println("test1231");
+		System.out.println("test1231`12`");
 	}
 }

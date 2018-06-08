@@ -1,4 +1,4 @@
-package com.noosh.yang;
+package leetcode;
 
 public class HelloWorld {
     public static void main(String[] args) {

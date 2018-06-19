@@ -1,6 +1,6 @@
 package leetcode;
 
-public class Test1 {
+public class LongestPalindrome_409 {
 
         public String longestPalindrome(String s) {
             if (null == s || s.length() <= 0) {
@@ -54,7 +54,7 @@ public class Test1 {
 
 
         public static void main(String[] args) {
-           String a = new Test1().reverse("9646324351");
+           String a = new LongestPalindrome_409().reverse("9646324351");
             System.out.println(a);
         }
     }

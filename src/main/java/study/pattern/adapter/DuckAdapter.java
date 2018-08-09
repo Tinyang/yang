@@ -14,7 +14,7 @@ public class DuckAdapter implements Turkey {
     }
 
     @Override
-    public void fly() {
+    public void fly()11111 {
         duck.fly();
     }
 }

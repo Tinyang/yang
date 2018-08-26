@@ -9,7 +9,7 @@ public class DuckAdapter implements Turkey {
     }
 
     @Override
-    public void gobble() {
+    public void gobble()66666 {
         duck.quack();
     }
 

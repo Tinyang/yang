@@ -1,4 +1,4 @@
-package javaSyntaxTest;
+package study.Syntax;
 
 public class Test1 {
 

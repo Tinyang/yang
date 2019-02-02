@@ -46,15 +46,15 @@ public class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
         if(null == nums)
             return -1;
-        if(nums.length == 0)
+        int count = nums.length;
+        if(count == 0)
             return 0;
-        int count = 0;
-        for (int i = 0; i < nums.length - 2 ; i++) {
-            int temp = nums[i];
+        int temp = nums[0];
+        for (int i = 0; i < nums.length - 1; i++) {
             if(temp == nums[i+1]){
-                count++;
-                nums[i+1] = nums[i+2];
+                count--;
             }
+            temp = nums[i];
         }
         return count;
     }

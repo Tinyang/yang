@@ -1,4 +1,4 @@
-package javaSyntaxTest;
+package study.Syntax;
 
 import java.util.ArrayList;
 import java.util.HashMap;

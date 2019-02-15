@@ -14,7 +14,7 @@ public class MyInvocationHandler implements InvocationHandler {
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("===============before===============");
-        Object object =method.invoke(hello,args);
+        Object object = method.invoke(hello,args);
         System.out.println("===============after===============");
         return object;
     }

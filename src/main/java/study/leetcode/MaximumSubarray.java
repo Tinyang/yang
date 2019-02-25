@@ -60,26 +60,44 @@ public class MaximumSubarray {
     public static int maxSubArray3(int[] nums) {
 
         int[] dp = new int[nums.length];
-        int max=dp[0]=nums[0];
-        int i=1;
-        while(i<nums.length){
-            dp[i]=Math.max(dp[i-1]+nums[i],nums[i]); //The maximum value will be either the value itself or addition of previous maximum and current value
-            if(dp[i]>max)max=dp[i];
+        int max = dp[0] = nums[0];
+        int i = 1;
+        while (i < nums.length) {
+            dp[i] = Math.max(dp[i - 1] + nums[i], nums[i]); //The maximum value will be either the value itself or addition of previous maximum and current value
+            if (dp[i] > max) max = dp[i];
             i++;
         }
         return max;
     }
 
     public static void main(String[] args) {
-        int[] nums1 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+       /* int[] nums1 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         int[] nums2 = {1, 2};
         int[] nums3 = {1};
         int[] nums4 = {-2, 1};
         int[] nums5 = {-1, 0, -2};
-        System.out.println(maxSubArray2(nums1));
+        System.out.println(maxSubArray3(nums1));
         System.out.println(maxSubArray(nums2));
         System.out.println(maxSubArray(nums3));
         System.out.println(maxSubArray(nums4));
-        System.out.println(maxSubArray(nums5));
+        System.out.println(maxSubArray(nums5));*/
+        int[] p = {1,5,8,9,10,17,17,20,24,30};
+        int n = 4;
+        int max = cut(p,n);
+        System.out.println(max);
+
     }
+
+    // the simple DP question
+    public static int cut(int[] p, int n) {
+        if (n == 0)
+            return 0;
+        int q = Integer.MIN_VALUE;
+        for (int i = 1; i <= n; i++) {
+            q = Math.max(q, p[i - 1] + cut(p, n - i));
+        }
+        return q;
+    }
+
+
 }

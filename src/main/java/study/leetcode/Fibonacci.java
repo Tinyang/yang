@@ -45,6 +45,10 @@ public class Fibonacci {
     }
 
     public static void main(String[] args) {
-        System.out.println(fibonacci3(5));
+        //System.out.println(fibonacci3(5));
+        if (false)
+            System.out.println("test1111");
+            System.out.println("test2222");
+
     }
 }

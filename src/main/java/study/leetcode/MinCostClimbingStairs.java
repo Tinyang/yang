@@ -1,5 +1,7 @@
 package study.leetcode;
 
+import java.util.Arrays;
+
 /**
  * On a staircase, the i-th step has some non-negative cost cost[i] assigned (0 indexed).
 
@@ -19,10 +21,17 @@ package study.leetcode;
  */
 public class MinCostClimbingStairs {
     public int minCostClimbingStairs(int[] cost) {
-        return 0;
+        if(cost.length == 1) return  cost[0];
+        if(cost.length == 2) return  Math.min(cost[0],cost[1]);
+        int[] cost1 = Arrays.copyOf(cost,cost.length - 1);
+        int[] cost2 = Arrays.copyOf(cost, cost.length - 2);
+        return Math.min(minCostClimbingStairs(cost1),minCostClimbingStairs(cost2) + cost[cost.length - 1]) ;
     }
 
     public static void main(String[] args) {
+        //int[] cost = {1, 100, 1, 1, 1, 100, 1, 1, 100, 1};
+        int[] cost = {10, 15, 20};
+        System.out.println(new MinCostClimbingStairs().minCostClimbingStairs(cost));
 
     }
 }

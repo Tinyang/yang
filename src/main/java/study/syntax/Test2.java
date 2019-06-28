@@ -1,4 +1,4 @@
-package study.Syntax;
+package study.syntax;
 
 import java.util.ArrayList;
 import java.util.HashMap;

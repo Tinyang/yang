@@ -1,4 +1,4 @@
-package study.thread;
+package study.multiThread;
 
 import java.io.IOException;
 import java.io.InputStream;

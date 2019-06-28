@@ -1,4 +1,4 @@
-package study.thread;
+package study.multiThread;
 
 import java.io.File;
 import java.util.ArrayList;

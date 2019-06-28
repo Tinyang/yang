@@ -1,4 +1,4 @@
-package study.Proxy;
+package study.proxy;
 
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;

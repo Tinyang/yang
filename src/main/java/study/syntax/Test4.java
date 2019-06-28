@@ -1,4 +1,4 @@
-package study.Syntax;
+package study.syntax;
 
 public class Test4 {
 

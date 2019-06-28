@@ -1,4 +1,4 @@
-package study.Proxy;
+package study.proxy;
 
 public class StaticProxiedHello implements Hello {
 

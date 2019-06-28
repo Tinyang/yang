@@ -1,4 +1,4 @@
-package study.Proxy;
+package study.proxy;
 
 import net.sf.cglib.proxy.Enhancer;
 import org.junit.Test;

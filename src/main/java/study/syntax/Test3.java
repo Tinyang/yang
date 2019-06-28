@@ -1,4 +1,4 @@
-package study.Syntax;
+package study.syntax;
 
 public enum Test3 {
     SPRING1(2, 1) {

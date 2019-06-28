@@ -1,4 +1,4 @@
-package study.Proxy;
+package study.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

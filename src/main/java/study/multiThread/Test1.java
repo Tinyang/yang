@@ -14,9 +14,11 @@ public class Test1 implements Runnable {
 
 
     public static void main(String[] args) {
-        //for (int i = 0; i < 100000 ; i++) {
-            new Thread(new Test1()).start();
-            new Thread(new Test2()).start();
-        //}
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                new Test1().run();
+            }
+        }).start();
     }
 }

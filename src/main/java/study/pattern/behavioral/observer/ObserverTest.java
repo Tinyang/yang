@@ -1,4 +1,4 @@
-package study.pattern.observer;
+package study.pattern.behavioral.observer;
 
 public class ObserverTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package study.proxy;
+package study.pattern.structural.proxy;
 
 import net.sf.cglib.proxy.Enhancer;
 import org.junit.Test;

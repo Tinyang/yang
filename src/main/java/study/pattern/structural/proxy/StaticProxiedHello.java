@@ -1,4 +1,4 @@
-package study.proxy;
+package study.pattern.structural.proxy;
 
 public class StaticProxiedHello implements Hello {
 

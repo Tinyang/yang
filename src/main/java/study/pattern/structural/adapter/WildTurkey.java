@@ -1,4 +1,4 @@
-package study.pattern.adapter;
+package study.pattern.structural.adapter;
 
 public class WildTurkey implements Turkey {
     @Override

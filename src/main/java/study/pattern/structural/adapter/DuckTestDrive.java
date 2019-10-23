@@ -1,4 +1,4 @@
-package study.pattern.adapter;
+package study.pattern.structural.adapter;
 
 public class DuckTestDrive {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package study.pattern.adapter;
+package study.pattern.structural.adapter;
 
 public class MallardDuck implements Duck {
     @Override

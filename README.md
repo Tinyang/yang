@@ -1,5 +1,3 @@
 # yang
-project used springboot
-
-leetcode
+personal learning project
 

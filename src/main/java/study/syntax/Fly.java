@@ -1,4 +1,4 @@
-package javaSyntaxTest;
+package study.syntax;
 
 public interface Fly {
 }

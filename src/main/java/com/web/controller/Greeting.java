@@ -1,4 +1,4 @@
-package com.hello;
+package com.web.controller;
 
 public class Greeting {
 

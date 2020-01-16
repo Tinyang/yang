@@ -1,4 +1,4 @@
-package com.web.controller;
+package com.commons.entity;
 
 public class Greeting {
 

@@ -1,4 +1,4 @@
-package study.lambda;
+package study.newFeature.lambda;
 
 public class Test2 implements Runnable {
     @Override

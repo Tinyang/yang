@@ -1,4 +1,4 @@
-package study.lambda;
+package study.newFeature.lambda;
 
 public interface TestInterface {
 

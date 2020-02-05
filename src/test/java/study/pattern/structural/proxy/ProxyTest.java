@@ -5,7 +5,6 @@ import org.junit.Test;
 
 public class ProxyTest {
 
-    @Test
     public void testProxy(){
         Hello hello = new HelloImp();
         MyInvocationHandler invocationHandler = new MyInvocationHandler(hello);
@@ -13,7 +12,6 @@ public class ProxyTest {
         proxyHello.sayHello("5555");
     }
 
-    @Test
     public void testCglibProxy(){
         CglibProxy proxy = new CglibProxy();
 

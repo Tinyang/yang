@@ -4,9 +4,9 @@ public class Father {
 
     private String name = "father";
 
-    private void printName(){
+    public void printName(){
         System.out.println("Father.printName");
-        System.out.println(name);
+        //System.out.println(name);
     }
 
     public void setName(String name2) {

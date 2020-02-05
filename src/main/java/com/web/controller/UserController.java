@@ -1,11 +1,11 @@
-package com.controller;
+package com.web.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-import com.entity.User;
-import com.repository.UserRepository;
+import com.commons.entity.User;
+import com.repository.jpa.UserRepository;
 
 @Controller    // This means that this class is a Controller
 @RequestMapping(path="/demo") // This means URL's start with /demo (after Application path)

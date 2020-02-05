@@ -1,0 +1,61 @@
+2020-01-17 14:18:46,880 INFO com.YangApplication [main] Starting YangApplication on USER-BL6ESTFJQ7 with PID 49668 (D:\Project\yang\target\classes started by Administrator in D:\Project\yang)
+2020-01-17 14:18:46,883 INFO com.YangApplication [main] No active profile set, falling back to default profiles: default
+2020-01-17 14:18:47,010 INFO org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@419c5f1a: startup date [Fri Jan 17 14:18:47 GMT+08:00 2020]; root of context hierarchy
+2020-01-17 14:18:51,006 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b5377e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-17 14:18:51,320 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-01-17 14:18:51,357 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-01-17 14:18:51,357 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-01-17 14:18:51,364 INFO org.apache.catalina.core.AprLifecycleListener [localhost-startStop-1] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java_Software\JDK1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Java_Software\xShell6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Java_Software\apache-maven-3.5.3\BIN;D:\Java_Software\JDK1.8\BIN;D:\Java_Software\Git\cmd;D:\nodeJs\;D:\Software\Putty\;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Software\PowerShell\6\;D:\Software\curl-7.65.1-win64-mingw\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2020-01-17 14:18:51,481 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [localhost-startStop-1] Initializing Spring embedded WebApplicationContext
+2020-01-17 14:18:51,481 INFO org.springframework.web.context.ContextLoader [localhost-startStop-1] Root WebApplicationContext: initialization completed in 4471 ms
+2020-01-17 14:18:51,600 INFO org.springframework.boot.web.servlet.ServletRegistrationBean [localhost-startStop-1] Servlet dispatcherServlet mapped to [/]
+2020-01-17 14:18:51,606 INFO org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-01-17 14:18:51,606 INFO org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-01-17 14:18:51,606 INFO org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-01-17 14:18:51,607 INFO org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] Mapping filter: 'requestContextFilter' to: [/*]
+2020-01-17 14:18:51,923 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-01-17 14:18:52,038 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-01-17 14:18:52,217 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-01-17 14:18:52,234 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-01-17 14:18:52,326 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.2.17.Final}
+2020-01-17 14:18:52,328 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2020-01-17 14:18:52,385 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-01-17 14:18:52,594 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-01-17 14:18:53,452 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6a0aa5e2'
+2020-01-17 14:18:53,455 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-17 14:18:53,924 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-17 14:18:54,243 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@419c5f1a: startup date [Fri Jan 17 14:18:47 GMT+08:00 2020]; root of context hierarchy
+2020-01-17 14:18:54,286 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-17 14:18:54,336 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] Mapped "{[/demo/all],methods=[GET]}" onto public java.lang.Iterable<com.commons.entity.User> com.web.controller.UserController.getAllUsers()
+2020-01-17 14:18:54,338 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] Mapped "{[/demo/add],methods=[GET]}" onto public java.lang.String com.web.controller.UserController.addNewUser(java.lang.String,java.lang.String)
+2020-01-17 14:18:54,339 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] Mapped "{[/greeting]}" onto public com.commons.entity.Greeting com.web.rest.GreetingResource.greeting(java.lang.String)
+2020-01-17 14:18:54,342 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-01-17 14:18:54,343 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-01-17 14:18:54,373 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-17 14:18:54,373 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-17 14:18:54,465 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: ServletContext resource [/index.html]
+2020-01-17 14:18:54,731 INFO org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] Registering beans for JMX exposure on startup
+2020-01-17 14:18:54,733 INFO org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-01-17 14:18:54,738 INFO org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-01-17 14:18:54,810 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-17 14:18:54,814 INFO com.YangApplication [main] Started YangApplication in 12.872 seconds (JVM running for 14.759)
+2020-01-17 14:18:54,929 INFO com.YangApplication [main] Customers found with findAll():
+2020-01-17 14:18:54,929 INFO com.YangApplication [main] -------------------------------
+2020-01-17 14:18:54,969 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-17 14:18:55,115 INFO com.YangApplication [main] com.commons.entity.Customer@8e100e7
+2020-01-17 14:18:55,115 INFO com.YangApplication [main] com.commons.entity.Customer@141874c8
+2020-01-17 14:18:55,115 INFO com.YangApplication [main] com.commons.entity.Customer@147ea894
+2020-01-17 14:18:55,116 INFO com.YangApplication [main] com.commons.entity.Customer@38aed8ad
+2020-01-17 14:18:55,116 INFO com.YangApplication [main] com.commons.entity.Customer@79c4454
+2020-01-17 14:18:55,116 INFO com.YangApplication [main] 
+2020-01-17 14:18:55,133 INFO com.YangApplication [main] Customer found with findById(1L):
+2020-01-17 14:18:55,133 INFO com.YangApplication [main] --------------------------------
+2020-01-17 14:18:55,133 INFO com.YangApplication [main] com.commons.entity.Customer@4557723a
+2020-01-17 14:18:55,133 INFO com.YangApplication [main] 
+2020-01-17 14:18:55,133 INFO com.YangApplication [main] Customer found with findByLastName('Bauer'):
+2020-01-17 14:18:55,134 INFO com.YangApplication [main] --------------------------------------------
+2020-01-17 14:18:55,171 INFO com.YangApplication [main] com.commons.entity.Customer@2c3d1214
+2020-01-17 14:18:55,171 INFO com.YangApplication [main] com.commons.entity.Customer@48064a5a
+2020-01-17 14:18:55,172 INFO com.YangApplication [main] 

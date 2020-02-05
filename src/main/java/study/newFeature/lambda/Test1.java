@@ -1,6 +1,4 @@
-package study.lambda;
-
-import java.util.Arrays;
+package study.newFeature.lambda;
 
 public class Test1 {
     public TestInterface ti;

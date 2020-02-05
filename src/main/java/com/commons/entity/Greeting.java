@@ -1,4 +1,4 @@
-package com.hello;
+package com.commons.entity;
 
 public class Greeting {
 

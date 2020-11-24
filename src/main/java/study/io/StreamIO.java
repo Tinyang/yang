@@ -1,5 +1,7 @@
 package study.io;
 
+import study.algorithm.Sort;
+
 import java.io.*;
 
 public class StreamIO {
@@ -65,6 +67,9 @@ public class StreamIO {
 
     public static void main(String[] args) {
         //replaceFile2("D:\\test.mp3","D:\\test1.mp3");
-        replaceFile2("D:\\ttt.doc","D:\\ttt1.doc");
+       // replaceFile2("D:\\ttt.doc","D:\\ttt1.doc");
+
+        Object[] objects = new Object[10];
+        System.out.println(9 >> 1);
     }
 }

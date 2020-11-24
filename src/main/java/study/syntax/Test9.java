@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class Test9 {
 
     public static void main(String[] args) {
-      boolean flag = true || false && false ;
-
-        System.out.println(flag);
+        Integer i = -1;
+        Long j = -1L;
+        System.out.println(i.intValue() == j.longValue());
     }
 }

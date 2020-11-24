@@ -9,16 +9,19 @@ public class Test1 implements Runnable {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }*/
-        System.out.println("456");
+        try {
+            Thread.sleep(20000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 
-    public static void main(String[] args) {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                new Test1().run();
-            }
-        }).start();
+    public static void main(String[] args) throws InterruptedException {
+        if (3 > 1) {
+            System.out.println("Test1.main11111");
+        }else if (3 > 2) {
+            System.out.println("Test1.main2222");
+        }
     }
 }

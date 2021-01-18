@@ -19,7 +19,28 @@ Given a binary tree, find its maximum depth.
           /  \
          15   7
         return its depth = 3.*/
-public class MaximumDepthofBinaryTree {
+public class MaximumDepthOfBinaryTree {
+    private boolean isLeaf(TreeNode root) {
+        return root.right == null && root.left == null;
+    }
+
+
+    public int maxDepth2(TreeNode root) {
+        if (root == null) { return 0; }
+        TreeNode node = root.left;
+        while (node != null) {
+            node = node.left;
+        }
+
+
+
+
+
+        return 1;
+    }
+
+
+
 
     public int maxDepth(TreeNode root) {
         TreeNode node = root;

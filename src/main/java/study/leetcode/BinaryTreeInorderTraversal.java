@@ -43,7 +43,6 @@ public class BinaryTreeInorderTraversal {
         System.out.println(Math.round(250 / 100));
 
         int[] string = new int[]{1,23,3};
-        string.length
     }
 
 

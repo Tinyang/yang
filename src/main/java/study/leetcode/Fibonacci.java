@@ -16,15 +16,15 @@ public class Fibonacci {
         }
         array[0] = 1;
         array[1] = 1;
-        return getFionacciNum(n, array);
+        return getFibonacciNum(n, array);
 
     }
 
-    private static int getFionacciNum(int n, int[] array) {
+    private static int getFibonacciNum(int n, int[] array) {
         if (array[n] != -1) {
             return array[n];
         } else {
-            return array[n] = getFionacciNum(n - 1, array) + getFionacciNum(n - 2, array);
+            return array[n] = getFibonacciNum(n - 1, array) + getFibonacciNum(n - 2, array);
         }
     }
 
